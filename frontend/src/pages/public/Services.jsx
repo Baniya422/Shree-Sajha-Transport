@@ -1,20 +1,42 @@
-import SectionHeader from '../../components/common/SectionHeader.jsx'
-import ServiceCard from '../../components/cards/ServiceCard.jsx'
-import { services } from '../../data/services.js'
+import HeroServices from '../../components/public/HeroServices.jsx'
+import WhyChooseUs from '../../components/public/WhyChooseUs.jsx'
+import ServicesGrid from '../../components/public/ServicesGrid.jsx'
+import StatsSection from '../../components/public/StatsSection.jsx'
+import TestimonialWithLogos from '../../components/public/TestimonialWithLogos.jsx'
+import BlogGrid from '../../components/public/BlogGrid.jsx'
+import FAQAccordion from '../../components/public/FAQAccordion.jsx'
+import CTASection from '../../components/public/CTASection.jsx'
 
 export default function Services() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-      <SectionHeader
-        eyebrow="Services"
-        title="Service placeholders"
-        description="The service page is prepared for your frontend teammate to expand with Tailwind-based UI."
-      />
-      <div className="mt-8 grid gap-5 md:grid-cols-3">
-        {services.map((service) => (
-          <ServiceCard key={service.title} service={service} />
-        ))}
-      </div>
-    </section>
+    <main>
+      <HeroServices />
+      
+      <section className="bg-white">
+        <WhyChooseUs />
+      </section>
+
+      <section className="bg-white">
+        <ServicesGrid />
+      </section>
+
+      <StatsSection />
+
+      <section className="bg-white">
+        <TestimonialWithLogos />
+      </section>
+
+      <section className="bg-slate-50">
+        <BlogGrid />
+      </section>
+
+      <section className="bg-white">
+        <FAQAccordion />
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <CTASection />
+      </section>
+    </main>
   )
 }

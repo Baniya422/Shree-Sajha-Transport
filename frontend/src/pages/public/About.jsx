@@ -1,13 +1,22 @@
-import SectionHeader from '../../components/common/SectionHeader.jsx'
+import HeroAbout from '../../components/public/HeroAbout.jsx'
+import ServicesSection from '../../components/public/ServicesSection.jsx'
+import Testimonial from '../../components/public/Testimonial.jsx'
+import CTASection from '../../components/public/CTASection.jsx'
 
 export default function About() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-      <SectionHeader
-        eyebrow="About"
-        title="Company profile placeholder"
-        description="This page is reserved for company history, operations, values, branch details, and logistics credibility content."
-      />
-    </section>
+    <main>
+      <HeroAbout />
+
+      <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+        <ServicesSection />
+      </section>
+
+      <Testimonial />
+
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <CTASection />
+      </section>
+    </main>
   )
 }
