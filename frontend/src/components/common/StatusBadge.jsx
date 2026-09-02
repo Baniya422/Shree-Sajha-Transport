@@ -1,7 +1,7 @@
 const tones = {
   success: 'bg-emerald-50 text-emerald-700 ring-emerald-200',
-  warning: 'bg-amber-50 text-amber-700 ring-amber-200',
-  danger: 'bg-red-50 text-red-700 ring-red-200',
+  warning: 'bg-amber-50 text-amber-800 ring-amber-200',
+  danger: 'bg-rose-50 text-rose-700 ring-rose-200',
   neutral: 'bg-slate-100 text-slate-700 ring-slate-200',
 }
 
