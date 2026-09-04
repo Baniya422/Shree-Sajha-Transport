@@ -14,7 +14,7 @@ import { companyInfo } from '../../data/companyInfo.js'
 export default function Home() {
   return (
     <main>
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl py-8 sm:py-10 lg:py-12">
         <PageHeader
           eyebrow="Transport and logistics"
           title="Premium cargo transport for Nepal's high-trust delivery routes"
@@ -26,7 +26,7 @@ export default function Home() {
         </PageHeader>
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-6 px-4 pb-8 sm:px-6 lg:grid-cols-[1.1fr_0.9fr] lg:px-8">
+      <section className="mx-auto grid max-w-7xl gap-6 pb-8 sm:pb-10 lg:grid-cols-[1.1fr_0.9fr] lg:pb-12">
         <Reveal className="rounded-[2rem] border border-white/70 bg-slate-950 p-8 text-white shadow-[0_28px_90px_-44px_rgba(15,23,42,0.85)]">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">Operational overview</p>
           <h2 className="mt-4 max-w-xl text-3xl font-semibold tracking-tight sm:text-4xl">Built for freight clarity, customer confidence, and branch coordination.</h2>
@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl py-10 sm:py-12 lg:py-14">
         <div className="grid gap-5 md:grid-cols-3">
           {services.map((service, index) => (
             <ServiceCard key={service.title} service={{ ...service, index: index + 1 }} />
@@ -62,7 +62,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl py-10 sm:py-12 lg:py-14">
         <div className="grid gap-5">
           {routes.map((route) => (
             <RouteCard key={route.title} route={route} />
@@ -70,7 +70,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl py-10 sm:py-12 lg:py-14">
         <div className="grid gap-5 md:grid-cols-3">
           {branches.map((branch) => (
             <BranchCard key={branch.name} branch={branch} />

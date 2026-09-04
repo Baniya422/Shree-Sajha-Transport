@@ -6,7 +6,7 @@ import Reveal from '../../components/common/Reveal.jsx'
 
 export default function Estimate() {
   return (
-    <section className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
+    <section className="mx-auto max-w-6xl py-8 sm:py-10 lg:py-12">
       <PageHeader
         eyebrow="Estimate"
         title="Fast cargo estimate request for planning shipments"

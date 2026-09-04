@@ -12,7 +12,7 @@ import { companyInfo } from '../../data/companyInfo.js'
 export default function Services() {
   return (
     <main>
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-10">
+      <section className="mx-auto max-w-7xl py-8 sm:py-10 lg:py-12">
         <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr]">
           <Reveal className="rounded-[2.25rem] border border-white/70 bg-[linear-gradient(135deg,#0f172a_0%,#111827_45%,#1e293b_100%)] p-8 text-white shadow-[0_30px_90px_-48px_rgba(15,23,42,0.92)] sm:p-10">
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">Services</p>
@@ -57,7 +57,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl py-8 sm:py-10 lg:py-12">
         <Reveal className="mb-5 flex items-end justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-700">Service catalogue</p>
@@ -74,7 +74,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl py-8 sm:py-10 lg:py-12">
         <Reveal className="mb-5 flex items-end justify-between gap-4">
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-700">Route support</p>
@@ -91,7 +91,7 @@ export default function Services() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl py-8 sm:py-10 lg:py-12">
         <Reveal className="rounded-[2.25rem] border border-white/70 bg-white/85 p-8 shadow-[0_24px_80px_-46px_rgba(15,23,42,0.45)] backdrop-blur sm:p-10">
           <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-center">
             <div>
