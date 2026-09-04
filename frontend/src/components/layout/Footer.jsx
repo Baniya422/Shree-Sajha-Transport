@@ -4,7 +4,7 @@ import { companyInfo } from '../../data/companyInfo.js'
 export default function Footer() {
   return (
     <footer className="border-t border-slate-200/80 bg-slate-950 text-slate-300">
-      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-12 sm:px-6 md:grid-cols-4 lg:px-8">
+      <div className="mx-auto grid max-w-[96rem] gap-10 px-4 py-12 sm:px-6 md:grid-cols-4 lg:px-10">
         <div>
           <p className="text-base font-semibold text-white">{companyInfo.name}</p>
           <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">{companyInfo.shortDescription}</p>

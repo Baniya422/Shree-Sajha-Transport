@@ -8,7 +8,7 @@ export default function Tracking() {
   const [trackingId, setTrackingId] = useState('')
 
   return (
-    <section className="mx-auto max-w-6xl py-8 sm:py-10 lg:py-12">
+    <section className="w-full py-8 sm:py-10 lg:py-12">
       <PageHeader
         eyebrow="Tracking"
         title="Customer shipment tracking with a calm, status-first UI"

@@ -8,7 +8,7 @@ export default function PageLayout({ children }) {
     <div className="relative flex min-h-screen flex-col overflow-x-hidden bg-[linear-gradient(180deg,#fbfaf8_0%,#f3f1eb_100%)] text-slate-700">
       <Navbar />
       <main className="relative flex-1">
-        <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="mx-auto w-full max-w-[96rem] px-4 sm:px-6 lg:px-10">
           {children ?? <Outlet />}
         </div>
       </main>

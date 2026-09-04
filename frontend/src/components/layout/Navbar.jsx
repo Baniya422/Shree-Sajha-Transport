@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-30 border-b border-white/70 bg-white/82 backdrop-blur-xl">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8" aria-label="Main navigation">
+      <nav className="mx-auto flex max-w-[96rem] items-center justify-between px-4 py-4 sm:px-6 lg:px-10" aria-label="Main navigation">
         <Link to="/" className="flex items-center gap-3" onClick={() => setIsOpen(false)}>
           <span className="flex h-11 w-11 items-center justify-center rounded-2xl bg-slate-950 text-sm font-bold text-white shadow-[0_16px_30px_-18px_rgba(15,23,42,0.95)]">
             ST
@@ -57,7 +57,7 @@ export default function Navbar() {
 
       {isOpen && (
         <div className="border-t border-slate-200/80 bg-white/96 px-4 py-4 lg:hidden backdrop-blur-xl">
-          <div className="mx-auto grid max-w-7xl gap-2">
+          <div className="mx-auto grid max-w-[96rem] gap-2 px-4 sm:px-6 lg:px-10">
             {navLinks.map((link) => (
               <NavLink key={link.path} to={link.path} className={navClass} onClick={() => setIsOpen(false)}>
                 {link.label}

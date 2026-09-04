@@ -5,7 +5,7 @@ import { routes } from '../../data/routes.js'
 
 export default function RoutesPage() {
   return (
-    <section className="mx-auto max-w-7xl py-8 sm:py-10 lg:py-12">
+    <section className="w-full py-8 sm:py-10 lg:py-12">
       <PageHeader
         eyebrow="Routes"
         title="Transport corridors designed for clarity and trust"

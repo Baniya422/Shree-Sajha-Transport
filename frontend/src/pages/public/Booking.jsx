@@ -6,7 +6,7 @@ import Reveal from '../../components/common/Reveal.jsx'
 
 export default function Booking() {
   return (
-    <section className="mx-auto max-w-6xl py-8 sm:py-10 lg:py-12">
+    <section className="w-full py-8 sm:py-10 lg:py-12">
       <PageHeader
         eyebrow="Booking"
         title="Book a transport request with a clean customer journey"

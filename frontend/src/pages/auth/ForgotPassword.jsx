@@ -5,7 +5,7 @@ import Reveal from '../../components/common/Reveal.jsx'
 
 export default function ForgotPassword() {
   return (
-    <section className="mx-auto max-w-7xl py-14 sm:py-16 lg:py-20">
+    <section className="w-full py-14 sm:py-16 lg:py-20">
       <div className="mx-auto max-w-md">
         <Reveal className="rounded-[2rem] border border-white/70 bg-white/85 p-8 shadow-[0_22px_70px_-40px_rgba(15,23,42,0.4)] backdrop-blur">
           <SectionHeader eyebrow="Admin" title="Reset your password" description="Send a reset link to the registered email address." />
