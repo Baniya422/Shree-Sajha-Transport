@@ -5,7 +5,7 @@ import Reveal from '../../components/common/Reveal.jsx'
 
 export default function Login() {
   return (
-    <section className="mx-auto max-w-5xl px-4 py-10 sm:px-6 lg:px-8">
+    <section className="w-full py-10 sm:py-12 lg:py-14">
       <div className="grid gap-6 lg:grid-cols-[0.95fr_1.05fr]">
         <Reveal className="rounded-[2rem] border border-white/70 bg-slate-950 p-8 text-white shadow-[0_28px_90px_-44px_rgba(15,23,42,0.85)]">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-300">Admin access</p>

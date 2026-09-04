@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom'
 export default function About() {
   return (
     <main>
-      <section className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <section className="w-full py-8 sm:py-10 lg:py-12">
         <PageHeader
           eyebrow="About"
           title="A transport company frontend with a serious operational feel"
@@ -17,7 +17,7 @@ export default function About() {
         />
       </section>
 
-      <section className="mx-auto grid max-w-7xl gap-6 px-4 py-8 sm:px-6 lg:grid-cols-[0.95fr_1.05fr] lg:px-8">
+      <section className="grid w-full gap-6 py-8 sm:py-10 lg:grid-cols-[0.95fr_1.05fr] lg:py-12">
         <Reveal className="rounded-[2rem] border border-white/70 bg-white/85 p-8 shadow-[0_22px_70px_-40px_rgba(15,23,42,0.4)] backdrop-blur">
           <p className="text-xs font-semibold uppercase tracking-[0.22em] text-amber-700">What we do</p>
           <h2 className="mt-4 text-2xl font-semibold tracking-tight text-slate-950">{companyInfo.name} connects branches, cargo, and customer communication.</h2>

@@ -38,6 +38,16 @@ export default function RoutesPage() {
                 <p className="mt-2 text-2xl font-semibold">1-2 days</p>
               </div>
             </div>
+    <section className="w-full py-8 sm:py-10 lg:py-12">
+      <PageHeader
+        eyebrow="Routes"
+        title="Transport corridors designed for clarity and trust"
+        description="Each route card emphasizes the destination, service level, and typical transit time in a clean visual hierarchy."
+      />
+      <div className="mt-8 grid gap-5">
+        {routes.map((route) => (
+          <Reveal key={route.title}>
+            <RouteCard route={route} />
           </Reveal>
 
           <Reveal className="rounded-[2.25rem] border border-white/70 bg-white/85 p-6 shadow-[0_24px_80px_-46px_rgba(15,23,42,0.45)] backdrop-blur sm:p-8">

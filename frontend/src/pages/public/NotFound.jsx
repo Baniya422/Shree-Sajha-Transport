@@ -5,7 +5,7 @@ import PageHeader from '../../components/common/PageHeader.jsx'
 
 export default function NotFound() {
   return (
-    <section className="mx-auto max-w-4xl px-4 py-20 sm:px-6 lg:px-8">
+    <section className="w-full py-20 sm:py-24 lg:py-28">
       <PageHeader
         eyebrow="404"
         title="This route does not exist"
